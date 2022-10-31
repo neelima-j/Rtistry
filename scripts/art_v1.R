@@ -14,5 +14,5 @@ ggplot(data, aes(x=X1, y=X2,fill=X3)) +
   scale_fill_manual(values = c(1:62))+
   scale_color_brewer(palette = "Greys")+
   theme(legend.position="none")+
-  labs(caption = "art in R & ggplot2 by Neelima-J")+
+  labs(caption = "art in R & ggplot2 by Neelima J")+
   theme(plot.caption = element_text(vjust = 13,hjust = 0.9)) 
